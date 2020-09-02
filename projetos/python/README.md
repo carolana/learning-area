@@ -1,0 +1,1 @@
+Aqui está presente todos os conteúdos que estou apredendo sobre python.
