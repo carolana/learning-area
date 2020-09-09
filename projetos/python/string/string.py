@@ -45,3 +45,5 @@ print(fatia[::2]) #Aqui ele retorna a quantidade de itens de 2 em 2
 
 frase = "Vamos separar a string"
 print(frase.split())
+type(frase) #busca qual é o tipo da variável
+print(type(frase))

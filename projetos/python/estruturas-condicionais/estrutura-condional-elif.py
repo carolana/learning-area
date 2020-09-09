@@ -1,3 +1,6 @@
+#Também é possível checar mais de uma condição com o elif. É a abreviatura para else if. Ou seja, se o if for falso, testa outra condição antes do else
+
+
 x = 1
 y = 2
 

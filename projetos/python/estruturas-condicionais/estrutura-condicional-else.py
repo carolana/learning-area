@@ -1,3 +1,5 @@
+#As estruturas de controle servem para decidir quais blocos de código serão executados.
+
 #x = 1
 #y = 2
 

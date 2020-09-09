@@ -45,3 +45,30 @@ print(lista_animais)
 lista_funcionarios = ['Joana', 'Marcos', 'Silvana', 'Leila']
 lista_funcionarios.insert(2, 'Jorge') #Na posição 2, será inserido o item Jorge
 print(lista_funcionarios)
+
+#FUNÇÃO RANGE
+
+#A função embutida range(), com ela é possível produzir uma lista extensa de uma maneira bem simples
+print(list(range(0, 10))) #foi pego os números no intervalo de 0 a 10 (é sempre n-1, se quisesse pegar o número 10, teria que ser (0, 11))
+
+#o range() também oferece algumas coisas interessantes. Por exemplo, imprimir os números espaçados de 5 em 5, entre 0 e 30
+print(list(range(0, 30, 5))) #lê-se "de 0 a 30 de 5 em 5"
+#sempre temos que colocar o range no formato list
+
+#MÉTODO EXTEND
+#extend() recebe uma lista como argumento e adiciona todos seus elementos a outra:
+lista_paises = ['Argentina', 'Brasil', 'Canadá']
+lista_pib = [7, 4, 10]
+lista_paises.extend(lista_pib)
+print(lista_paises)
+
+#MÉTODO SORT
+#O método sort() ordena os elementos da lista em ordem ascendente
+lista_comida = ['Lasanha', 'Mandioca', 'Arroz', 'Escondidinho de carne']
+lista_comida.sort()
+print(lista_comida)
+#Se quiser os elementos numa ordem decrescente, tem que usar o método reverse()
+
+lista_onibus = [5119, 6540, 857, 6048, 746, 647]
+lista_onibus.sort(reverse=True)
+print(lista_onibus)
