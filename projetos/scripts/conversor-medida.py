@@ -1,0 +1,2 @@
+valor_metro = float(input('Digite o valor desejado, em metros, para a conversão: '))
+print('O valor digitado foi {}. Esse valor em centimetros corresponde a {} e em milimetros é {} '.format(valor_metro,(valor_metro * 100), (valor_metro * 1000)))
