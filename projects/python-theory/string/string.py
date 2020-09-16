@@ -34,7 +34,7 @@ frase = "Aprender Python é muito legal"
 print(frase[:]) #retorna a frase completa
 print(frase[0:6]) #retorna do item 0 ATÉ o item 6
 print(frase[6:]) #retorna a partir do item 6 até o final
-print(frase[6:10]) #retorna do item 6 até o item 10
+print(frase[:6]) #retorna até o teim 6
 
 #É possível controlar o passo que a fatia usa. Para isso, coloca-se mais um dois pontos (:) depois do segundo índice e o tamanho do passo
 fatia = "Python é show de bola"
@@ -47,3 +47,22 @@ frase = "Vamos separar a string"
 print(frase.split())
 type(frase) #busca qual é o tipo da variável
 print(type(frase))
+
+#MÉTODO CAPITALIZE 
+#Deixa apenas a primeira letra em maiusculo e as demais em minusculo
+#frase = 'Python é Muito Legal'
+#print(frase.capitalize()) (retornará 'Python é muito legal')
+
+#MÉTODO TYTLE
+#Faz com que as primeiras letras de cada palavra comece com a letra maiuscula
+
+#MÉTODO STRIP
+#Remove todos os espaços inuteis no começo e no final da string
+#Se colocar o r antes do método, ele remove apenas os espaços inuteis a direita da string
+#Se colocar o l antes do método, ele remove apenas os espaços inuteis a esquerda da string
+
+#MÉTODO JOIN
+#Junta todas as partes da string separadas por um caracteres definido ao passar no argumento:
+    #texto = 'Python é uma lingaguem muito boa para aprender'
+    #'-'.join(texto)
+    #Python-é-uma-lingaguem-muito-boa-para-aprender
